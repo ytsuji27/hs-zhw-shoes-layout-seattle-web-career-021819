@@ -38,6 +38,10 @@
   line-height: 0;
 }
 
+[class*="col-"] {
+  float: left;
+  margin-left: 2%;
+}
 [class*="col-"]:first-child {
   margin-left: 0;
 }
